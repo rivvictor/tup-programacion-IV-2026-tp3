@@ -1,0 +1,17 @@
+### Listar conductores
+GET http://localhost:3000/conductores
+Authorization: Bearer TU_TOKEN_AQUI
+
+### Crear conductor
+POST http://localhost:3000/conductores
+Authorization: Bearer TU_TOKEN_AQUI
+Content-Type: application/json
+
+{
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "numero_documento": "35123456",
+  "numero_licencia": "LIC-987654",
+  "fecha_alta_licencia": "2023-01-10",
+  "fecha_vencimiento_licencia": "2028-01-10"
+}

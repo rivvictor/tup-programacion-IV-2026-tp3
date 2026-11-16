@@ -1,0 +1,16 @@
+### Listar vehículos
+GET http://localhost:3000/vehiculos
+Authorization: Bearer TU_TOKEN_AQUI
+
+### Crear vehículo
+POST http://localhost:3000/vehiculos
+Authorization: Bearer TU_TOKEN_AQUI
+Content-Type: application/json
+
+{
+  "marca": "Mercedes-Benz",
+  "modelo": "Sprinter",
+  "patente": "AB123CD",
+  "anio": 2022,
+  "capacidad_carga": 1500.50
+}
